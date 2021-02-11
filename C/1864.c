@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  char frase[] = "LIFE IS NOT A PROBLEM TO BE SOLVED";
+  int num;
+  scanf("%d", &num);
+
+  int i;
+  for(i = 0; i < num; i++){
+    printf("%c", frase[i]);
+  }
+  printf("\n");
+
+  return 0;
+}
